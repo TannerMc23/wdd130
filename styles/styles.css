@@ -17,7 +17,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-p{
+main p{
     padding: 0;
 }
 main{
@@ -36,7 +36,7 @@ aside img{
     width: 200px;
     height: auto;
 }
-p {
+aside p {
     padding: 10px;
 }
 footer{
