@@ -49,5 +49,6 @@ h1{
     color: #fff;
 }
 .hero article img{
-    width: 125px;
+    float: right;
+    width: 150px;
 }
