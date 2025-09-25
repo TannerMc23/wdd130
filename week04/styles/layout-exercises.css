@@ -23,6 +23,7 @@ div {
 
 .flex {
     background-color: #aba;
+    display: block;
     display: flex;
     justify-content: center;
     align-items: center;
