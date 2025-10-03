@@ -35,7 +35,7 @@
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7155.322777115702!2d-111.59556834371026!3d41.059316216151956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1759466895640!5m2!1sen!2sus"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <form class="contact-form">
@@ -44,9 +44,10 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Your email">
                 <p>Message Purpose</p>
-                <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
-                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                <label><input type="radio" id="general" name="purpose" value="general"> General Inquiry</label>
+                <label><input type="radio" id="reservation" name="purpose" value="reservation"> Reservation
+                    Question</label>
+                <label><input type="radio" id="website" name="purpose" value="website"> Website Suggestion</label>
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="4" placeholder="Type here"></textarea>
 
@@ -60,7 +61,7 @@
             <h2>We Are Here to Serve You</h2>
             <div class="employee-profiles">
                 <figure>
-                    <img src="/week01/images/profile.jpg" alt="Employee 1">
+                    <img src="images/profile.jpg" alt="Employee 1">
                     <figcaption>Employee Profile</figcaption>
                 </figure>
                 <figure>
