@@ -621,3 +621,134 @@ footer .socialmedia img:hover {
 
 /* Trips (trips.html) */
 
+/* Hero */
+.trips-hero {
+  position: relative;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.trips-hero img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.trips-hero h1{
+  color: white;
+}
+
+.trips-hero-text {
+  position: absolute;
+  max-width: 700px;
+  background-color: rgba(0, 0, 50, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Featured Trips */
+.featured-trips {
+  background-color: white;
+  padding: 4rem 1rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.featured-trips h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.trip-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.trip-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.trip-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+}
+
+.trip-content h3 {
+  margin-bottom: 0.75rem;
+  color: var(--accent1-color);
+}
+
+/* Trip Table */
+.trip-table-section {
+  background-color: var(--accent1-color);
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.trip-table-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.trip-table-container {
+  overflow-x: auto;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.trip-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  color: var(--primary-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.trip-table th,
+.trip-table td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.trip-table th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.trip-table tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+.trip-table tr:hover {
+  background-color: #e6f0ff;
+}
+
+/* Responsive Table */
+@media (max-width: 700px) {
+  .trip-table th, .trip-table td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+}
